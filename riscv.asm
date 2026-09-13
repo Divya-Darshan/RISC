@@ -1,10 +1,13 @@
+.data
+msg: .string "Hello World\n"    # Store the text in memory
+
 .text
 main:
-li t0, 5
-li t1, 10
-add t2, t0, t1
-li a7, 1
-mv a0, t2
-ecall
-li a7, 10
-ecall
+    # Print String
+    li a0, 4                   # Call ID 4: Print String
+    la a1, msg                 # Load memory address of msg into a1
+    ecall                      # Execute print call
+
+    # Exit Program
+    li a0, 10                  # Call ID 10: Exit
+    ecall
