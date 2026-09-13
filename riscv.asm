@@ -5,7 +5,7 @@ msg: .string "Hello World\n"    # Store the text in memory
 main:
     # Print String
     li a0, 4                   # Call ID 4: Print String
-    la a1, msg                 # Load memory address of msg into a1
+    la a2, msg                 # Load memory address of msg into a1
     ecall                      # Execute print call
 
     # Exit Program
