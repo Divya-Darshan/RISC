@@ -112,3 +112,4 @@ logo:
 
 # Column 9
 .word yellow, yellow, yellow, yellow, yellow, black, black, blue, blue, blue
+#idk this feel kind !!! but i thi UW<D dte
