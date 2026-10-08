@@ -11,7 +11,7 @@
 
 # Code Section
 .text
-
+#y i dont understand a single line
 ###################################################
 # Main entry point.
 # The program starts here, at address 0x00000000
